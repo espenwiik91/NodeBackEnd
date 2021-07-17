@@ -1,0 +1,27 @@
+{
+  "name": "nodebackend",
+  "version": "1.0.0",
+  "description": "backendtest",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espenwiik91/NodeBackEnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espenwiik91/NodeBackEnd/issues"
+  },
+  "homepage": "https://github.com/espenwiik91/NodeBackEnd#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  }
+}
